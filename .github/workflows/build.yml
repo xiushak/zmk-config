@@ -12,7 +12,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - shield: crbn
+          - shield: helix_left
+            board: nice_nano
+          - shield: helix_right
             board: nice_nano
     steps:
       - name: Checkout
